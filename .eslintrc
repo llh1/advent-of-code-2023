@@ -1,0 +1,22 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 9
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "amd": true
+  },
+  "plugins": ["promise"],
+  "extends": [
+    "eslint:recommended",
+    "eslint-config-airbnb-base",
+    "prettier",
+    "eslint-config-prettier"
+  ],
+  "globals": {},
+  "rules": {
+    "no-console": "off",
+    "no-plusplus": "off"
+  }
+}
